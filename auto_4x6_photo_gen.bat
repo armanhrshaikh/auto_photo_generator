@@ -1,7 +1,6 @@
 @echo off
 
-::## Dependencies
-::This project relies on the following dependencies:
+::Dependencies
 ::**ImageMagick:** A software suite used for creating, editing, composing, or converting bitmap images. You can download it from [ImageMagick's official website](https://imagemagick.org/script/download.php).
 ::set enviroment variable 
 ::done!
