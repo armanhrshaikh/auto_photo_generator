@@ -16,4 +16,4 @@ echo "Generating 4x6 photo."
 # Generate photo using ImageMagick
 montage -mode concatenate -tile 4x2 -geometry 300x375+5+5 "$input_file" "$input_file" "$input_file" "$input_file" "$input_file" "$input_file" "$input_file" "$input_file" -density 300 -units pixelsperinch "photo$datetime.png"
 
-read -p "Press Enter to continue..."
+read -r -p "Press Enter to continue..."
